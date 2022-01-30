@@ -187,8 +187,8 @@ a {
 @media screen and (max-width: 819px) {
   .cards .cards__card, .cards--grid .cards__card, .cards--3 .cards__card {
     -webkit-box-flex: 0;
-        -ms-flex: 0 1 50%;
-            flex: 0 1 50%;
+        -ms-flex: 0 1 45%;
+            flex: 0 1 45%;
     margin-bottom: 20px;
   }
 }
@@ -288,6 +288,12 @@ a {
 @media screen and (max-width: 768px) {
   .card__title {
     margin: 0px 0px 7px 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card__description {
+    text-align: left;
   }
 }
 

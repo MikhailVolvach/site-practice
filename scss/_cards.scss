@@ -13,7 +13,7 @@
         & .cards__card {
             flex: 0 1 30%;
             @media screen and (max-width: 819px) {
-                flex: 0 1 50%;
+                flex: 0 1 45%;
                 margin-bottom: 20px;
             }
             @media screen and (max-width: 540px) {
@@ -97,5 +97,8 @@
     }
 
     &__description {
+        @media (max-width: 768px) {
+            text-align: left;
+        }
     }
 }
