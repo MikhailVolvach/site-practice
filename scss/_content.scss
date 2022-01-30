@@ -634,7 +634,7 @@
     }
 }
 .quote {
-    background: url(../images/why-us/bcg.png) 45px 45px #F6F8F9 no-repeat;
+    background: url(../images/why-us/bcg.png) 45px 45px #f6f8f9 no-repeat;
     // .quote__text
     &__text {
         font-size: 28px;
@@ -701,7 +701,6 @@
         flex-wrap: wrap;
         justify-content: space-between;
         // max-width: 680px;
-
     }
 
     // .rewards__column
@@ -740,15 +739,81 @@
     }
 }
 .reward {
-
     // .reward__icon
     &__icon {
-        
     }
 
     // .reward__description
     &__description {
         // margin: 30px 0px 0px 0px;
         text-align: center;
+    }
+}
+
+.contact-us {
+    margin: 120px 0px 0px 0px;
+
+    @media (max-width: 768px) {
+        margin: 80px 0px 0px 0px;
+    }
+    @media (max-width: 425px) {
+        margin: 50px 0px 0px 0px;
+    }
+    @media (max-width: 320px) {
+        margin: 30px 0px 0px 0px;
+    }
+    // .contact-us__row
+    &__row {
+        min-height: 466px;
+        background: url(../images/contact/background.png), #ffd042;
+        padding: 120px 38px;
+
+        @media (max-width: 540px) {
+            padding: 90px 38px;
+            min-height: 400px;
+        }
+        @media (max-width: 425px) {
+            padding: 70px 10px;
+            min-height: 360px;
+        }
+    }
+
+    // .contact-us__header
+    &__header {
+    }
+
+    // .contact-us__title
+    &__title {
+        & h1 {
+            font-size: 48px;
+            line-height: 64/48*100%;
+
+            @media (max-width: 768px) {
+                font-size: 42px;
+            }
+            @media (max-width: 600px) {
+                font-size: 36px;
+            }
+            @media (max-width: 540px) {
+                font-size: 32px;
+            }
+            @media (max-width: 425px) {
+                font-size: 26px;
+            }
+            @media (max-width: 320px) {
+                font-size: 24px;
+            }
+        }
+    }
+
+    // .contact-us__content
+    &__content {
+    }
+
+    // .contact-us__buttons
+    &__buttons {
+        margin: 50px 0px 0px 0px;
+        display: flex;
+        justify-content: center;
     }
 }
