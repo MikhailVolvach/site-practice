@@ -24,6 +24,10 @@ nav, footer, header, aside {
   display: block;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 html, body {
   height: 100%;
   width: 100%;
@@ -1109,7 +1113,7 @@ a {
   display: block;
   width: 42px;
   height: 42px;
-  top: -20px;
+  top: -28px;
   right: -33px;
   background: url(../images/reliability/Vector.png) no-repeat;
 }
